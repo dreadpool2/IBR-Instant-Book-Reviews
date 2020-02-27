@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441284292080",
+    "firebase_url": "https://ibr-instantbookreviews.firebaseio.com",
+    "project_id": "ibr-instantbookreviews",
+    "storage_bucket": "ibr-instantbookreviews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441284292080:android:ca9aa8dea6fca285a10135",
+        "android_client_info": {
+          "package_name": "com.example.ibr_instantbookreviews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441284292080-vhb0ctadsjuiqlh4t3vfbk7gm3t2gbgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk2f8e3Yx1orGZCXXTbDDorUXmlW24G2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441284292080-vhb0ctadsjuiqlh4t3vfbk7gm3t2gbgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

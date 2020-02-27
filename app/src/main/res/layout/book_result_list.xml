@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#00FFFFFF"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+<LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="32sp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/topHeader"
+            android:textColor="@color/white"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Top 20 Results for 'Harry Potter'"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/listBooks"
+            android:visibility="visible"
+            android:name="com.example.internshalaandroid.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            app:layoutManager="GridLayoutManager"
+            tools:context=".Activities.LoggedInMainActivity"
+            tools:listitem="@layout/book_result_item"/>
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
